@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --color-blue: #007bc1;
+    --color-dark-blue: #004a75;
+    --color-orange: #ff8000;
+    --color-dark-orange: #cc6600;
+    --color-smoke-grey: #e5e5e5;
+    --color-black: #33423f;
+    --color-white: #ffffff;
+}
+
+html,
+body {
+    background-color: var(--color-smoke-grey);
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+
+@media only screen and (max-width: 740px) {
+    #cookie.alert .btn-primary {
+        margin-top: 15px;
+    }
+}
+
+#cookie.alert {
+    margin: 10px;
+    padding: 0;
+    z-index: 999;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+
+#cookie.alert .btn-primary {
+    background-color: var(--color-blue);
+    border: 0;
+}
+
+#cookie.alert .btn-primary:hover {
+    background-color: var(--color-dark-blue);
+}
+
+.hero-shot h3 {
+    font-weight: 600;
+}
+
+.hero-shot h4 {
+    font-weight: 300;
+}
+
+.hero-text {
+    color: var(--color-white);
+}
+
+.main-background .background {
+    background-image: linear-gradient(var(--color-blue), var(--color-blue)), url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+.logo {
+    height: 10vh;
+    z-index: 2;
+}
+
+.card {
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 1);
+}
+
+.card h3 {
+    font-weight: 500;
+}
+
+article {
+    color: var(--color-black);
+}
+
+.footer-bg {
+    background-color: var(--color-dark-blue-2);
+    min-height: 15vh;
+}
+
+.footer-text {
+    color: var(--color-white);
+}
+
+#newsletter.toast {
+    max-width: 100%;
+    color: var(--color-white);
+    background-color: rgba(0, 123, 193, 0.7);
+    transform: translateY(100%);
+    transition: all 500ms ease-in-out;
+}
+
+#newsletter.toast.show {
+    transform: translateY(0%);
+    transition-delay: 100ms;
+}
+
+#newsletter.toast h4 {
+    font-weight: 600;
+}
+
+#newsletter.toast .btn-primary {
+    border: 0;
+    background-color: var(--color-orange);
+    margin-left: 10px;
+}
+
+#newsletter.toast .btn-primary:hover {
+    background-color: var(--color-dark-orange);
+}
+
+#newsletter.toast .close {
+    color: var(--color-white);
+    opacity: 1;
+}
