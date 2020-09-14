@@ -28,6 +28,8 @@ body {
     }
 }
 
+/* Notification Panel */
+
 #cookie.alert {
     margin: 10px;
     padding: 0;
@@ -47,6 +49,8 @@ body {
 #cookie.alert .btn-primary:hover {
     background-color: var(--color-dark-blue);
 }
+
+/* Page Header and Hero Shot */
 
 .hero-shot h3 {
     font-weight: 600;
@@ -89,6 +93,8 @@ article {
     color: var(--color-black);
 }
 
+/* Footer */
+
 .footer-bg {
     background-color: var(--color-dark-blue-2);
     min-height: 15vh;
@@ -97,6 +103,8 @@ article {
 .footer-text {
     color: var(--color-white);
 }
+
+/* Newsletter Panel */
 
 #newsletter.toast {
     max-width: 100%;
